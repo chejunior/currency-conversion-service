@@ -2,7 +2,7 @@ package com.maik.microservices.currencyconversionservice;
 
 import java.math.BigDecimal;
 
-public class CurencyConversion {
+public class CurrencyConversion {
 	private Long id;
 	private String from;
 	private String to;
@@ -11,11 +11,11 @@ public class CurencyConversion {
 	private BigDecimal totalCalculatedAmount;
 	private int port;
 
-	public CurencyConversion() {
+	public CurrencyConversion() {
 
 	}
 
-	public CurencyConversion(final Long id, final String from, final String to, final BigDecimal conversionMultiple, final BigDecimal quantity,
+	public CurrencyConversion(final Long id, final String from, final String to, final BigDecimal conversionMultiple, final BigDecimal quantity,
 			final BigDecimal totalCalculatedAmount, final int port) {
 		super();
 		this.id = id;
